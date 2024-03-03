@@ -1,0 +1,505 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.fylo-logo{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.fylo-items{
+    display: flex;
+    padding: 50px 7.1%;
+    justify-content: space-between;
+}
+
+.aside-items{
+    display: flex;
+    flex-direction: row;
+    font-family: "Raleway";
+    font-size: 16px;
+    color: #070439;
+    gap: 32px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-get-started{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+    padding: 90px 7.1% 250px;
+    background-image: url('images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.illustration-1{
+    width: 50%;
+}
+
+.h1-all-files{
+    font-size: 40px;
+    font-family: "Raleway";
+    margin: 14px 0;
+    color: #070439;
+    line-height: 1.6;
+}
+
+.p1-fylo-storage{
+    font-size: 16px;
+    font-family: "Open Sans";
+    margin: 24px 0;
+    color: #070439;
+    line-height: 1.6;
+}
+
+.form-fylo{
+    display: flex;
+}
+
+.form-enter-email{
+    border: 0.0625rem solid #585989;
+    border-radius: 4px;
+    padding: 8px 30px 6px 20px;
+    margin-right: 20px;
+    width: 70%;
+    height: 50px;
+}
+
+.form-enter-email::placeholder{
+    opacity: .3;
+    color: #070439;
+    font-size: 16px;
+    font-family: "Open Sans";
+}
+
+.input-get-started{
+    background-color: #3065f8;
+    box-shadow: 0.1875rem 0.1875rem 0.375rem rgba(88,89,137,.25);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    flex-basis: 12rem;
+    cursor: pointer;
+    width: 30%;
+    transition: 0.1s;
+}
+
+.input-get-started:hover{
+    background-color: hsl(221, 100%, 71%);
+}
+
+.article-bottom{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #F8F8FE;
+    padding: 90px 7.1%;
+    gap: 40px;
+}
+
+.illustration-2{
+    width: 50%;
+}
+
+.h1-stay-productive{
+    font-size: 40px;
+    font-family: "Raleway";
+    margin-top: 14px;
+    margin-bottom: 28px;
+    line-height: 1.6;
+    color: #070439;
+}
+
+.paragraph-stay-productive{
+    font-size: 16px;
+    font-family: "Open Sans";
+    line-height: 1.6;
+    color: #070439;
+    margin: 14px 0;
+}
+
+.see-fylo{
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 6px;
+    color: #3c9f8f;
+    font-size: 14px;
+    font-family: "Open Sans";
+    border-bottom: 1px solid #3c9f8f;
+    padding-bottom: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.see-fylo:hover{
+    opacity: 0.8;
+}
+
+.quotes-fylo{
+    color: #070439;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0.1875rem 0.1875rem 0.375rem rgba(88,89,137,.1), 
+    -0.1875rem -0.1875rem 0.375rem rgba(88,89,137,.1);
+    padding: 20px;
+    margin: 40px 0;
+    font-size: 16px;
+    font-family: "Open Sans";
+    max-width: 400px;
+}
+
+.kyle-all{
+    display: flex;
+}
+
+.kyle-picture{
+    border-radius: 50%;
+    height: 3.125rem;
+    width: 3.125rem;
+}
+
+.Kyle-Burton{
+    margin: 0;
+    font-size: 16px;
+    font-family: "Open Sans";
+}
+
+.kyle-founder{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.FounderCEO{
+    margin: 0;
+    font-size: 12px;
+    font-family: "Open Sans";
+}
+
+.aside-access{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 7.1%;
+    background-color: #585989;
+    color: white;
+    gap: 200px;
+}
+
+.h1-access{
+    margin: 14px 0;
+    font-size: 36px;
+    font-family: "Raleway";
+
+}
+
+.p-access{
+    margin: 14px 0;
+    font-size: 16px;
+    font-family: "Open Sans";
+    max-width: 500px;
+}
+
+.form-fylo-access{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.form-enter-email-access{
+    margin-bottom: 14px;   
+    border: 0.0625rem solid #585989;
+    border-radius: 4px;
+    padding: 8px 30px 6px 20px;
+    max-width: 450px;
+    height: 50px;
+}
+
+.form-enter-email::placeholder{
+    opacity: .3;
+    color: #070439;
+    font-size: 16px;
+    font-family: "Open Sans";
+}
+    
+
+.input-get-started-access{
+    background-color: #3065f8;
+    box-shadow: 0.1875rem 0.1875rem 0.375rem rgba(88,89,137,.25);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    cursor: pointer;
+    width: 12.5rem;
+    height: 3.125rem;
+    transition: 0.1s;
+}
+
+.input-get-started-access:hover{
+    background-color: hsl(221, 100%, 71%);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #070439;
+    padding: 90px 7.1% 60px;
+    color: white;
+}
+
+.text-icon-all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fylo-logo-bottom{
+    width: 166px;
+    height: 49px;
+    margin-bottom: 32px;
+}
+
+.text-footer{
+    display: inline-flex;
+    font-family: "Open Sans";
+    font-size: 16px;
+    gap: 13%;
+}
+
+.text-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-icon:hover{
+    color: #83A3FB;
+    cursor: pointer;
+}
+
+.phone-example{
+    margin: 0;
+}
+
+.extra-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.extra{
+    margin: 0;
+}
+
+.extra:hover{
+    color: #83A3FB;
+    cursor: pointer;
+}
+
+.contact-terms-privacy{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.contact-text{
+    margin: 0;
+}
+
+.contact-text:hover{
+    color: #83A3FB;
+    cursor: pointer;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.circle:hover{
+    color: #83A3FB;
+}
+
+.link{
+    opacity: 0; 
+    position: absolute; 
+    width: 45px; 
+    height: 45px;
+}
+
+@media (max-width: 600px) {
+    .fylo-logo{
+        width: 100px
+    }
+
+    .h1-all-files{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .p1-fylo-storage{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .form-fylo{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .form-enter-email{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .input-get-started{
+        flex-basis: 3rem;
+        width: 100%;
+    }
+
+    .h1-stay-productive{
+        font-size: 22px;
+    }
+
+    .paragraph-stay-productive{
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width: 900px){
+
+    .aside-items{
+        font-size: 14px;
+        gap: 20px;
+        @media (max-width: 600px) {
+            gap: 10px;
+        }
+    }
+
+    .illustration-1{
+        width: 84%;
+    }
+
+    .h1-all-files{
+        text-align: center;
+    }
+
+    .p1-fylo-storage{
+        text-align: center;
+    }
+
+    .section-get-started{
+        flex-direction: column;
+        background-image: url('images/bg-curve-mobile.svg');
+    }
+
+    .article-bottom{
+        flex-direction: column;
+    }
+
+    .illustration-2{
+        width: 84%;
+    }
+
+    .h1-stay-productive{
+        text-align: center;
+    }
+
+    .paragraph-stay-productive{
+        text-align: center;
+    }
+
+    .see-fylo-mobile{
+        text-align: center;
+    }
+
+    .stay-productive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aside-access{
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .h1-access{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .p-access{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .form-fylo-access{
+        width: 100%;
+        align-items: center;
+    }
+
+    .form-enter-email-access{
+        width: 75%;
+    }
+
+    .input-get-started-access{
+        width: 75%;
+    }
+
+    .text-footer{
+        flex-direction: column;
+    }
+
+    .text-icon-all{
+        margin-bottom: 18px;
+    }
+
+    .extra-holder{
+        margin-bottom: 30px;
+    }
+
+    .contact-terms-privacy{
+        margin-bottom: 20px;
+    }
+
+    .social{
+        justify-content: center;
+    }
+}
